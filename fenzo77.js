@@ -986,11 +986,11 @@ message: {
 "mimetype": "image/jpeg",
 "jpegThumbnail": log0 //Gambarnye
 },
-"title": "Lol Lexxy+", //Kasih namalu 
+"title": "ZxyuuRomm", //Kasih namalu 
 "description": "SELF BOT", 
 "currencyCode": "USD",
 "priceAmount1000": "2000",
-"retailerId": "MyMans",
+"retailerId": "XzyuuNaii",
 "productImageCount": 1
 },
 "businessOwnerJid": `0@s.whatsapp.net`
@@ -1007,7 +1007,7 @@ orderMessage: {
 itemCount : 1,
 status: 1,
 surface : 1,
-message: 'MyMans', //Kasih namalu
+message: 'ZxyuuRomm', //Kasih namalu
 orderTitle: 'Bang',
 thumbnail: log0, //Gambarnye
 sellerJid: '0@s.whatsapp.net'
@@ -1082,11 +1082,11 @@ participant: `0@s.whatsapp.net`, ...(from ?
 },
 message: { 
  "videoMessage": { 
- "title":"Lol Lexxy+",
+ "title":"XzyuuNaii",
  "h": `Hmm`,
  'seconds': "30", 
  'gifPlayback': 'true', 
- 'caption': 'Lol Lexxy+',
+ 'caption': 'ZxyuuRomm',
  'jpegThumbnail': log0
 }
 }
@@ -1145,13 +1145,13 @@ Jika Ada Fitur Error Atau Bug Segera Lapor Ke Owner Bot
 > Role User : *${role}*
 ────────────
 ❏ *Info Creator*
-> Name : *Lexxy Official*
-> Nomor : *082279915237*
-> Umur : *18+*
+> Name : *ZxyuuRomm*
+> Nomor : *081322667077*
+> Umur : *16+*
 > Region : *Indonesia 🇲🇨*
-> Hobyy : *Coding*
-> Made in : *Palembang*
-> Nama Asli : *Pebri Pratama*
+> Hobyy : *YTTA*
+> Made in : *Bandung Barat*
+> Nama Asli : *Romli Suhanda*
 ────────────
 ❏ *Info Server*
 > Tanggal Server : *${jangwak}*
@@ -1192,9 +1192,9 @@ case 'hanzo': case 'prp': case 'inventori': case 'profile':{
      teksehmazeh += `*Role* : ${role}\n`
      teksehmazeh += `*Level* : ${getLevelingLevel(m.sender)}`
      let butRun = [
-        	{ urlButton: { displayText: `Group WhatsApp`, url : `https://chat.whatsapp.com/E3zewfxrc5pKE6Rzb3BuqG` } },
-        	{ urlButton: { displayText: `Instagram`, url : `https://Instagram.com/Lexxy24` } },
-            { urlButton: { displayText: `☎️Contact Me`, url: `+62 857-8900-4732` } },
+        	{ urlButton: { displayText: `Group WhatsApp`, url : `https://chat.whatsapp.com/ItgtoArOdVD46P7S9cA179` } },
+        	{ urlButton: { displayText: `Instagram`, url : `https://Instagram.com/Naiichnz` } },
+            { urlButton: { displayText: `☎️Contact Me`, url: `https://wa.me/6281322667077` } },
             { quickReplyButton: { displayText: `🏧 leaderboard`, id: 'leaderboard'} }
         	]
         	mans.sendMessage(m.chat, { caption: teksehmazeh, document: { url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pptx' }, mimetype: 'application/vnd.openxmlformats-officedocument.presentationml.presentation', fileName: '© LexxyBotMD', templateButtons: butRun, footer: `ingin Berpetualang Lagi`, mentions: [m.sender] })
@@ -1210,7 +1210,7 @@ case 'list': case 'menu': case 'help': case '?': {
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 822-7991-5237'
+                                    phoneNumber: '6281322667077'
                                 }
                             },{
                                 quickReplyButton: {
@@ -1228,13 +1228,13 @@ case 'list': case 'menu': case 'help': case '?': {
                                     id: 'hanzo'
                                 }
                             }]
-mans.send5ButImg(m.chat, listmn, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, global.thumb, kontol)
+mans.send5ButImg(m.chat, listmn, `© ZxyuuRomm--XzyuuNaii`, global.thumb, kontol)
 }
         	break
 case 'grupbot':
 case 'groupbot':
 case 'botgrup':
-fakey(`https://chat.whatsapp.com/E3zewfxrc5pKE6Rzb3BuqG`)
+fakey(`https://chat.whatsapp.com/ItgtoArOdVD46P7S9cA179`)
 break
 case 'limit':
 fakey(`*Sisa Limit Anda : ${global.db.users[m.sender].limit}*`)
@@ -2166,7 +2166,7 @@ let sections = []
       from, 
       {
        text: "Anime Search",
-       footer: "Lol Lexxy",
+       footer: "ZxyuuRomm",
        title: "Data Base Ada Di Button Ini",
        buttonText: "Click and see search results➡️",
        sections
@@ -2229,7 +2229,7 @@ case 'coffe': case 'kopi': {
                 let buttonMessage = {
                     image: { url: 'https://coffee.alexflipnote.dev/random' },
                     caption: `☕ Random Coffe`,
-                    footer: `Created By © LexxySlemek`,
+                    footer: `Created By © ZxyuuAnj`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2576,12 +2576,12 @@ if (!args.join(" ")) return m.reply(`Text mana?\n\nExample : ${prefix + command}
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'SCRIPT',
-                                    url: 'https://github.com/Lexxy24/KaguraMD'
+                                    url: 'https://github.com/romlisuhanda'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'OWNER',
-                                    phoneNumber: ' +62 822-7991-5237'
+                                    phoneNumber: ' +6281322667077'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2651,7 +2651,7 @@ let buttonMessageVote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© Lol Lexxy+ - X - Lol Lexxy+",
+footer: "© ZxyuuRomm--XzyuuNaii",
 buttons: buttonsVote,
 headerType: 1
 }
@@ -2695,7 +2695,7 @@ let buttonMessageUpvote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© Lol Lexxy+ - X - Lol Lexxy+",
+footer: "© ZxyuuRomm--XzyuuNaii",
 buttons: buttonsUpvote,
 headerType: 1,
 mentions: menvote
@@ -2740,7 +2740,7 @@ let buttonMessageDevote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© Lol Lexxy+ - X - Lol Lexxy+",
+footer: "© ZxyuuRomm--XzyuuNaii",
 buttons: buttonsDevote,
 headerType: 1,
 mentions: menvote
@@ -3065,10 +3065,10 @@ m.reply(`*BOT ON 24 JAM & BISA BUAT PRICELIST*
 ├  DAN RATUSAN FITUR LAINYA
 ╰────
 ╭─[ *MINAT CHAT* ]
-├  🪀 wa.me/6282279915237?text=sewa+bot
+├  🪀 wa.me/6281322667077?text=sewa+bot
 ╰────
 ╭─[ *TES BOT? CHAT NOMER DI BAWAH* ]
-├ Wa.me/6285750758067
+├ Wa.me/6281224804625
 ╰────
 ╭─[ *PAYMENT* ]
 ├  GOPAY
@@ -3279,7 +3279,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© Lol Lexxy+",
+footer: "© ZxyuuRommAnj",
 buttons: buttons,
 headerType: 4
 }
@@ -3303,7 +3303,7 @@ let buttonMessage = {
 image: {url:res[0].icon},
 jpegThumbnail: thum,
 caption: teks,
-footer: "© Lol Lexxy+",
+footer: "© MMEMEK",
 buttons: buttons,
 headerType: 4
 }
@@ -3329,7 +3329,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© Lol Lexxy+",
+footer: "© ZxyuuRomm",
 buttons: buttons,
 headerType: 4
 }
@@ -3352,7 +3352,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© Lol Lexxy+ ",
+footer: "© ZxyuuRomm ",
 buttons: buttons,
 headerType: 4
 }
@@ -3519,17 +3519,17 @@ if (!m.isGroup) return m.reply(mess.group)
 let response = await mans.groupInviteCode(m.chat)
 mans.sendMessage(m.chat, {text:`Link Group ${groupMetadata.subject} : \nhttps://chat.whatsapp.com/${response}l`, "contextInfo": {
 mimetype: "image/jpeg",
-text: "Lol Lexxy+",
+text: "ZxyuuuBotz",
 "forwardingScore": 1000000000,
 isForwarded: true,
 sendEphemeral: true,
 "externalAdReply": {
-"title": `Lol Lexxy+`,
-"body": `Lol Lexxy+`,
+"title": `Yametehh`,
+"body": `Zxyuurom`,
 "previewType": "PHOTO",
 "thumbnailUrl": thum,
 "thumbnail": thum,
-"sourceUrl": "https://youtube.com/watch?v=w6w0cy_1HY4"
+"sourceUrl": "-"
 }}}, { quoted: m, detectLink: true })
 }
 break
@@ -3571,8 +3571,8 @@ let buttons = [
 let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
-caption: `*「 Lol Lexxy+ 」*\n\nChange Info, Select Open Or Close`,
-footer: "© Lol Lexxy+",
+caption: `*「 ZxyuuBOTZ 」*\n\nChange Info, Select Open Or Close`,
+footer: "© ZxyuuBOTZ",
 buttons: buttons,
 headerType: 4
 }
@@ -3597,8 +3597,8 @@ let buttons = [
 let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
-caption: `*「 Lol Lexxy+ 」*\n\nChange Group Setting, Select Open Or Close`,
-footer: "© Lol Lexxy+",
+caption: `*「 ZxyuuBotz 」*\n\nChange Group Setting, Select Open Or Close`,
+footer: "© ZxyuuBotz",
 buttons: buttons,
 headerType: 4
 }
@@ -4247,7 +4247,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© Lol Lexxy+",
+footer: "© ZxyuuBOTZ",
 buttons: buttons,
 headerType: 4
 }
@@ -4286,7 +4286,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© Lol Lexxy+",
+footer: "© ZxyuuRomm",
 buttons: buttons,
 headerType: 4
 }
@@ -4364,11 +4364,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
 caption: teks,
-footer: "© Lol Lexxy+",
+footer: "© Zxyuubot",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Lol Lexxy+ - Twitter Downloader",
+title:"ZxyuuBotz - Twitter Downloader",
 body:lotwit.title ? lotwit.title : "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -4393,11 +4393,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© Lol Lexxy+",
+footer: "© ZxyuuBotz",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Lol Lexxy+ - Twitter Downloader",
+title:"Zxyuubotz - Twitter Downloader",
 body: "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -4429,11 +4429,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:resd.medias[0].url},
 caption: teks,
-footer: "© Lol Lexxy+",
+footer: "© ZxyuuBotz",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Lol Lexxy+ - Facebook Downloader",
+title:"Zxyuubotz - Facebook Downloader",
 body:"facebook downloader",
 thumbnail: log0,
 mediaType:1,
@@ -4459,11 +4459,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© Lol Lexxy+",
+footer: "© Zxyuuboyz",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Lol Lexxy+ - Facebook Downloader",
+title:"Zxyuubotz - Facebook Downloader",
 body: " Facebook Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -4687,7 +4687,7 @@ let buttons = [
 let buttonMessage = {
 image: {url:res.thumb},
 caption: textyt,
-footer: "© Lol Lexxy+",
+footer: "© ZxyuuBotz",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
