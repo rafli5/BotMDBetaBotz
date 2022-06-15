@@ -1136,7 +1136,7 @@ const jumlahUser = pendaftar.length
   if (!isInventoriBuruan){ addInventoriBuruan(m.sender) }
   
 const listmn = `Selamat ${salam} ${pushname} 👋
-Saya *${namebot}*, Assisten *Lexxy Official* Bot Ini Adalah Beta Multi-Device WhatsApp.
+Saya *${namebot}*, Bot Ini Adalah Beta Multi-Device WhatsApp.
 Jika Ada Fitur Error Atau Bug Segera Lapor Ke Owner Bot
 ─────────────
 ❏ *Info User*
@@ -1204,8 +1204,8 @@ case 'hanzo': case 'prp': case 'inventori': case 'profile':{
 case 'list': case 'menu': case 'help': case '?': {
                 let kontol = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/Lexxy24/KaguraMD'
+                                    displayText: 'My Github',
+                                    url: 'https://github.com/romlisuhanda'
                                 }
                             }, {
                                 callButton: {
@@ -2097,7 +2097,7 @@ case 'wallpaper': {
                 let buttonMessage = {
                     image: { url: result.image[0] },
                     caption: `Title : ${result.title}\nCategory : ${result.type}\nDetail : ${result.source}\nMedia Url : ${result.image[2] || result.image[1] || result.image[0]}`,
-                    footer: `© Created Lol Lexxy`,
+                    footer: `© ZxyuuBotz`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2115,7 +2115,7 @@ case 'wallpaper': {
                 let buttonMessage = {
                     image: { url: result.image },
                     caption: `⭔ Title : ${result.title}\n⭔ Source : ${result.source}\n⭔ Media Url : ${result.image}`,
-                    footer: `© Created Lol Lexxy`,
+                    footer: `© ZxyuuBotz`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2229,7 +2229,7 @@ case 'coffe': case 'kopi': {
                 let buttonMessage = {
                     image: { url: 'https://coffee.alexflipnote.dev/random' },
                     caption: `☕ Random Coffe`,
-                    footer: `Created By © ZxyuuAnj`,
+                    footer: `© Z X Y U U`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2575,7 +2575,7 @@ if (!args.join(" ")) return m.reply(`Text mana?\n\nExample : ${prefix + command}
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'SCRIPT',
+                                    displayText: 'Github',
                                     url: 'https://github.com/romlisuhanda'
                                 }
                             }, {
@@ -3279,7 +3279,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© ZxyuuRommAnj",
+footer: "© ZxyuuBOTZ",
 buttons: buttons,
 headerType: 4
 }
@@ -3303,7 +3303,7 @@ let buttonMessage = {
 image: {url:res[0].icon},
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MMEMEK",
+footer: "© ZxyuuBotz",
 buttons: buttons,
 headerType: 4
 }
@@ -3329,7 +3329,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© ZxyuuRomm",
+footer: "© ZxyuuBotz",
 buttons: buttons,
 headerType: 4
 }
@@ -3352,7 +3352,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© ZxyuuRomm ",
+footer: "© ZxyuuBotz",
 buttons: buttons,
 headerType: 4
 }
@@ -4184,12 +4184,12 @@ caption: `*| GOOGLE IMAGE |*
 
 🤠 Query : ${text}
 🔗 Media Url : ${images}`,
-footer: "© Lol Lexxy+",
+footer: "© ZxyuuBotz",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© Lol Lexxy+ - X - Lol Lexxy+",
+body:"© ZxyuuBotz",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtube.com/watch?v=w6w0cy_1HY4",
@@ -4316,7 +4316,7 @@ if (!args[0]) return m.reply("Linknya mana kak?")
 try {
 mans.sendMessage(from, {video:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
 title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© Lol Lexxy+ - X - Lol Lexxy+",
+body:"© ZxyuuBotz+",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtube.com/watch?v=w6w0cy_1HY4",
@@ -4333,7 +4333,7 @@ if (!args[0]) return m.reply("Linknya mana kak?")
 try {
 mans.sendMessage(from, {image:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
 title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© Lol Lexxy+ - X - Lol Lexxy+",
+body:"© ZxyuuBotz",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtube.com/watch?v=w6w0cy_1HY4",
@@ -4692,7 +4692,7 @@ buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: res.title,
-body: "© Lol Lexxy+ - X - Lol Lexxy+",
+body: "© ZxyuuuBotz",
 thumbnail: {url:res.thumb},
 mediaType:2,
 mediaUrl: args[0],
