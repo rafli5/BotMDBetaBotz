@@ -3,8 +3,8 @@ const chalk = require("chalk")
 
 // Other
 global.thum = "https://telegra.ph/file/b704f7f1469043f7e614c.jpg"
-global.log0 = fs.readFileSync("./media/fenzo.jpg")
-global.thumb = fs.readFileSync("./media/fenzo.jpg")
+global.log0 = fs.readFileSync("./media/IMG-20220615-WA0030.jpg")
+global.thumb = fs.readFileSync("./media/IMG-20220615-WA0030.jpg")
 global.err4r = "https://telegra.ph/file/b704f7f1469043f7e614c.jpg"
 global.owner = ['6281322667077','6281215710461','6281215710461']
 global.lolhuman = "RelzzAPIs"
