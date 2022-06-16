@@ -1197,7 +1197,7 @@ case 'hanzo': case 'prp': case 'inventori': case 'profile':{
             { urlButton: { displayText: `☎️Contact Me`, url: `https://wa.me/6281322667077` } },
             { quickReplyButton: { displayText: `🏧 leaderboard`, id: 'leaderboard'} }
         	]
-        	mans.sendMessage(m.chat, { caption: teksehmazeh, document: { url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pptx' }, mimetype: 'application/vnd.openxmlformats-officedocument.presentationml.presentation', fileName: '© LexxyBotMD', templateButtons: butRun, footer: `ingin Berpetualang Lagi`, mentions: [m.sender] })
+        	mans.sendMessage(m.chat, { caption: teksehmazeh, document: { url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pptx' }, mimetype: 'application/vnd.openxmlformats-officedocument.presentationml.presentation', fileName: '© ZxyuuBOTZ-Md', templateButtons: butRun, footer: `ingin Berpetualang Lagi`, mentions: [m.sender] })
         	}
         	break
  
